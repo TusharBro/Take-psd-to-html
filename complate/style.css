@@ -1,0 +1,206 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+header{
+  background: url(img/header.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.Header{
+  width: 80%;
+  margin: auto;
+}
+nav img{
+}
+.head-text{
+  top: 45%;
+  /* transform: translate(-50%) */
+  position: absolute;
+}
+.head-text p{
+  font-size: 15px;
+  padding: 0 40% 0 0;
+}
+.phone{
+  /* width: 80%; */
+  /* margin: auto; */
+}
+.phone img{
+  position: absolute;
+  top: 30%;
+  width: 500px;
+  right: 10%;
+}
+.phn-buttom{
+  padding-top: 220px;
+}
+
+.gallery{
+  margin-bottom: 50px;
+}
+.col-md-4,.col-md-8{
+  height: 275px;
+}
+.first{
+  background: #f5989d;
+}
+.first-text{
+  padding: 30px;
+  color: #fff;
+}
+.first-text h4{
+  margin-bottom: 30px;
+}
+.first-text p{
+  margin-bottom: 50px;
+}
+.second{
+  background: #615f7d;
+}
+.third{
+  background-image: url(img/about-small-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fourth{
+  background-image: url(img/about-big-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.five{
+  background: #82ca9c;
+}
+.power{
+  height: 100vh;
+  width: 100%;
+  margin-top: 150px;
+  background: url(img/car.jpg);
+  background-size: cover;
+}
+
+.power-text{
+  padding: 320px 170px 0 0;
+  color: #fff;
+}
+.power-text h1{
+  margin-bottom: 30px;
+}
+.power-text p{
+  line-height: 20px;
+  margin-bottom: 30px;
+}
+.onboard{
+  background: #82ca9c;
+}
+.solo{
+  background-color: #f6f7fa;
+}
+.next-level1{
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.next-level1:hover{
+  background: #fff;
+}
+.for-bg h6{
+  background-color: #bd8cbf;
+  width: 110px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.next-level1 .btn{
+  background-color: #82ca9c;
+  color: #fff;
+}
+footer{
+  background-color: #192431;
+}
+ li a{
+  text-decoration: none;
+  transition: 0.3s;
+}
+li a:hover{
+  color: #192431;
+}
+footer{
+  padding: 50px 0px 1px 0px;
+}
+.foot-content p{
+  font-size: 14px;
+}
+.foot-content h4{
+  padding-bottom: ;
+}
+form input{
+  padding: 10px;
+  position: relative;
+  border: none;
+  outline: none;
+}
+form button{
+  position: absolute;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  background-color: #82ca9c;
+  color: #fff;
+}
+.copy{
+  padding-top: 130px;
+}
+em{
+  color: #82ca9c;
+}
+.icon i{
+  font-size: 28px;
+  padding: 14px 10px;
+  transition: 0.4s;
+}
+.icon i:hover{
+  color: #82ca9c;
+}
+button i{
+  color: #000;
+}
+@media (max-width:576px) {
+  .phone img{
+    width: 60%;
+    top: 50%;
+    right: 30%;
+  }
+  .phn-buttom{
+    padding-top: 0px;
+  }
+  .head-text p{
+    font-size: 14px;
+    padding-right: 0;
+  }
+  .head-text{
+    top: 20%;
+    text-align: center;
+  }
+}
+/* @media (max-width:768px) {
+  .phone img{
+    width: 50%;
+    top: 45%;
+    right: 20%;
+  }
+  .head-text h1{
+    color: black;
+  }
+  .head-text p{
+    font-size: 15px;
+    padding: 0px 5%;
+    color: black;
+  }
+  .head-text{
+    top: 20%;
+    text-align: center;
+  }
+} */
